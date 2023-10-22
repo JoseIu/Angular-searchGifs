@@ -1,0 +1,30 @@
+.gifs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13em, 1fr));
+  gap: 3em 1em;
+}
+
+.gif {
+  //   width: 12em;
+  border-radius: 0.3em;
+  overflow: hidden;
+
+  &__img {
+    aspect-ratio: 16/9;
+  }
+  &__texts {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1em;
+    height: 5em;
+  }
+  &__title {
+    text-align: center;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+  }
+  &__description {
+    line-height: 1.4em;
+    font-size: 0.9rem;
+  }
+}
