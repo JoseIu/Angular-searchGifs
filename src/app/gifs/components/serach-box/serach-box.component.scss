@@ -1,0 +1,16 @@
+.search {
+  &__title {
+    margin-bottom: 0.3em;
+  }
+  &__input {
+    border: 1px solid #222;
+    border-radius: 0.3em;
+    width: 100%;
+    padding: 0.3em 0.5em;
+  }
+  &__input:focus {
+    outline: none;
+
+    border: 1px solid blue;
+  }
+}

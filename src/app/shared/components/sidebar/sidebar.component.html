@@ -1,0 +1,10 @@
+<aside class="aside" id="sidebar">
+  <h2 class="aside__title">GifsApp</h2>
+  <ul class="aside__ul">
+    <li class="aside__li" *ngFor="let tag of tags" (click)="searchTag(tag)">
+      {{ tag | titlecase }}
+    </li>
+  </ul>
+
+  <!-- <pre> {{ tags | json }} </pre> -->
+</aside>
